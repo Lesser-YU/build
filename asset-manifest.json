@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/build/static/css/main.12dd2bce.css",
-    "main.js": "/build/static/js/main.ce6a8609.js",
+    "main.js": "/build/static/js/main.8c861b87.js",
     "static/js/453.befddeed.chunk.js": "/build/static/js/453.befddeed.chunk.js",
     "static/media/5ShanghaiInternationalCircuit.png": "/build/static/media/5ShanghaiInternationalCircuit.03dad2106c504c23751e.png",
     "static/media/17BakuCityCircuit.png": "/build/static/media/17BakuCityCircuit.22453919d4355c6edc55.png",
@@ -129,11 +129,11 @@
     "static/media/F1-Logo.svg": "/build/static/media/F1-Logo.7b727427fc63d53fee823252ed6a27e5.svg",
     "index.html": "/build/index.html",
     "main.12dd2bce.css.map": "/build/static/css/main.12dd2bce.css.map",
-    "main.ce6a8609.js.map": "/build/static/js/main.ce6a8609.js.map",
+    "main.8c861b87.js.map": "/build/static/js/main.8c861b87.js.map",
     "453.befddeed.chunk.js.map": "/build/static/js/453.befddeed.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.12dd2bce.css",
-    "static/js/main.ce6a8609.js"
+    "static/js/main.8c861b87.js"
   ]
 }
