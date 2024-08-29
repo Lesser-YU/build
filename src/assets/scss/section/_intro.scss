@@ -1,0 +1,38 @@
+#intro{
+    background-color: #373737;
+    height: 130vh;
+    display: flex;
+    align-items: center;
+}
+.intro-wrap{
+    width: 70vw;
+    margin: 0 auto;
+}
+.intro-title{
+    color: #FF1E00;
+    font-weight: bold;
+    font-size: 3vw;
+    text-align: center;
+}
+.intro-logo{
+    display: inline-block;
+    img{
+        width: 20vw;
+    }
+}
+.intro-title-text{
+    display: inline-block;
+    text-align: left;
+    
+}
+.intro-pic{
+    background: url(../../img/intro/start1.png) no-repeat center center;
+    background-size: cover;
+    height: 60vh;
+}
+.intro-txt{
+    text-align: center;
+    color: #fff;
+    font-size: 1.25vw;
+    margin-top: 5%;
+}

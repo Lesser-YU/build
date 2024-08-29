@@ -1,0 +1,162 @@
+{
+    "round1" : [
+        {
+        "id": 1, 
+        "rocation": "BAHRAIN GRAND PRIX", 
+        "circuit": "Bahrain International Circuit",
+        "day": "29 Feb - 02 Mar"
+        },
+        {
+        "id": 2, 
+        "rocation": "SAUDI ARABIAN GRAND PRIX", 
+        "circuit": "Jeddah Corniche Circuit",
+        "day": "07 - 09 Mar"
+        },
+        {
+        "id": 3, 
+        "rocation": "AUSTRALIAN GRAND PRIX", 
+        "circuit": "Albert Park Grand Prix Circuit",
+        "day": "22 - 24 Mar"
+        }
+    ],
+    "round2" : [
+        {
+        "id": 4, 
+        "rocation": "JAPANESE GRAND PRIX", 
+        "circuit": "Suzuka Circuit",
+        "day": "05 - 07 Apr"
+        },
+        {
+        "id": 5, 
+        "rocation": "CHINESE GRAND PRIX", 
+        "circuit": "Shanghai International Circuit",
+        "day": "19 - 21 Apr"
+        },
+        {
+        "id": 6, 
+        "rocation": "MIAMI GRAND PRIX", 
+        "circuit": "Miami International Autodrome",
+        "day": "03 - 05 May"
+        }
+    ],
+    "round3" : [
+        {
+        "id": 7, 
+        "rocation": "GRAN PREMIO DEL MADE IN ITALY E DELL'EMILIA-ROMAGNA", 
+        "circuit": "Autodromo Internazionale Enzo e Dino Ferrari",
+        "day": "17 - 19 May"
+        },
+        {
+        "id": 8, 
+        "rocation": "GRAND PRIX DE MONACO", 
+        "circuit": "Circuit de Monaco",
+        "day": "24 - 26 May"
+        },
+        {
+        "id": 9, 
+        "rocation": "GRAND PRIX DU CANADA", 
+        "circuit": "Circuit Gilles-Villeneuve",
+        "day": "07 - 09 Jun"
+        }
+    ],
+    "round4" : [
+        {
+        "id": 10, 
+        "rocation": "GRAN PREMIO DE ESPAÑA", 
+        "circuit": "Circuit de Barcelona-Catalunya",
+        "day": "21 - 23 Jun"
+        },
+        {
+        "id": 11, 
+        "rocation": "AUSTRIAN GRAND PRIX", 
+        "circuit": "Red Bull Ring",
+        "day": "28 - 30 Jun"
+        },
+        {
+        "id": 12, 
+        "rocation": "BRITISH GRAND PRIX", 
+        "circuit": "Silverstone Circuit",
+        "day": "05 - 07 Jul"
+        }
+    ],
+    "round5" : [
+        {
+        "id": 13, 
+        "rocation": "HUNGARIAN GRAND PRIX", 
+        "circuit": "Hungaroring",
+        "day": "19 - 21 Jul"
+        },
+        {
+        "id": 14, 
+        "rocation": "BELGIAN GRAND PRIX", 
+        "circuit": "Circuit de Spa-Francorchamps",
+        "day": "26 - 28 Jul"
+        },
+        {
+        "id": 15, 
+        "rocation": "DUTCH GRAND PRIX", 
+        "circuit": "Circuit Zandvoort",
+        "day": "23 - 25 Aug"
+        }
+    ],
+    "round6" : [
+        {
+        "id": 16, 
+        "rocation": "GRAN PREMIO D’ITALIA", 
+        "circuit": "Autodromo Nazionale Monza",
+        "day": "30 Aug - 01 Sep"
+        },
+        {
+        "id": 17, 
+        "rocation": "AZERBAIJAN GRAND PRIX", 
+        "circuit": "Baku City Circuit",
+        "day": "13 - 15 Sep"
+        },
+        {
+        "id": 18, 
+        "rocation": "SINGAPORE GRAND PRIX", 
+        "circuit": "Marina Bay Street Circuit",
+        "day": "20 - 22 Sep"
+        }
+    ],
+    "round7" : [
+        {
+        "id": 19, 
+        "rocation": "UNITED STATES GRAND PRIX", 
+        "circuit": "Circuit of The Americas",
+        "day": "18 - 20 Oct"
+        },
+        {
+        "id": 20, 
+        "rocation": "GRAN PREMIO DE LA CIUDAD DE MÉXICO", 
+        "circuit": "Autódromo Hermanos Rodríguez",
+        "day": "25 - 27 Oct"
+        },
+        {
+        "id": 21, 
+        "rocation": "GRANDE PRÊMIO DE SÃO PAULO", 
+        "circuit": "Autódromo José Carlos Pace",
+        "day": "01 - 03 Nov"
+        }
+    ],
+    "round8" : [
+        {
+        "id": 22, 
+        "rocation": "LAS VEGAS GRAND PRIX", 
+        "circuit": "Las Vegas Strip Circuit",
+        "day": "21 - 23 Nov"
+        },
+        {
+        "id": 23, 
+        "rocation": "QATAR GRAND PRIX", 
+        "circuit": "Lusail International Circuit",
+        "day": "29 Nov - 01 Dec"
+        },
+        {
+        "id": 24, 
+        "rocation": "ABU DHABI GRAND PRIX", 
+        "circuit": "Yas Marina Circuit",
+        "day": "06 - 08 Dec"
+        }
+    ]
+}

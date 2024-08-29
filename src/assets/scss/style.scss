@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+//setting
+@import "../scss/setting/font";
+@import "../scss/setting/reset";
+@import "../scss/setting/mixin";
+
+//section
+@import "section/intro";
+@import "section/history";
+@import "section/calendar";
+@import "section/progress";
+@import "section/team";
+@import "section/racecar";
+@import "section/populardriver";
+@import "section/f1";

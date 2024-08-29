@@ -1,0 +1,392 @@
+#calendar{
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    margin: 20vh 0;
+}
+.calendar-cover{
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    .calendar-title{
+        margin-bottom: 10vh;
+        h2{
+            font-family: F1B;
+            font-size: 4vw;
+        }
+        p{
+            font-family: F1R;
+            font-size: 0.75vw;
+        }
+    }
+}
+.round.active::after{
+    content: "";
+        border-top: 0px solid transparent;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 10px solid #000113;
+        position: absolute;
+        bottom: -7%;
+        left: calc(50% - 10px);
+}
+        
+
+.calendar-round{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2vh 0;
+    position: relative;
+
+    .round{
+        width: 32%;
+        height: 30vh;
+        border-radius: 30px;
+        text-align: center;
+        position: relative;
+        background-size: cover;
+        .calendar-flag{
+            position: absolute;
+            top: 6%;
+            left: 5%;
+            width: 10.5%;
+            height: 11%;
+            border-radius: 5px;
+            background-size: cover;
+            z-index: 3;
+        }
+        .calendar-bg{
+            width: 100%;
+            height: 100%;
+            background-color: rgba($color: #000000, $alpha: 0.3);
+            position: absolute;
+            z-index: 0;
+            border-radius: 30px;
+        }
+        h3,h4,.calendar-day,.calendar-round{
+            position: relative;
+        }
+        .calendar-round{
+            position: absolute;
+            color: #fff;
+            font-family: F1R;
+            top: 8%;
+            right: 5%;
+        }
+        h3,h4{
+            color: #fff;
+            font-family: F1B;
+            font-size: 1.1vw;
+        }   
+        h3{
+            padding-top: 22%;
+        }
+        h4{
+            padding-top: 3%;
+        }
+        .calendar-day{
+            color: #fff;
+            font-family: F1R;
+            padding-top: 15%;
+        }
+    }
+}
+
+.roundinfo.active{
+    display: block;
+}
+.roundinfo{
+    width: 100%;
+    padding: 3%;
+    background: #EEEEEE;
+    border-radius: 40px;
+    display: none;
+    fieldset{
+        border-bottom: none;
+        border-left: none;
+        border-top: red 7px solid;
+        border-right: red 7px solid;
+        border-radius: 0 40px 0 0;
+        legend{
+            padding: 0 10% 0 5%;
+        }
+        h5{
+            font-weight: 700;
+            font-size: 1.5vw;
+        }
+    }
+    .circuit-wrap{
+        display: flex;
+        .circuit{
+            width: 55%;
+            height: 45vh;
+            background-size: contain;
+        }
+        .circuit-info{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-content: flex-start;
+            gap: 5%;
+            width: 45%;
+            .circuit-info-1,.circuit-info-2{
+                height: 25%;
+                background-color: #fff;
+                border: 1px solid #000;
+                border-radius: 25px;
+                h6,.recordes,span{
+                    font-family: F1B;
+                }
+                h6,.recordes{
+                    padding-left: 15px;
+                }
+                h6{
+                    font-size: 0.9vw;
+                    padding-top: 15px;
+                    
+                }
+                .recordes{
+                    font-size: 1.7vw;
+                    padding-top: 10px;
+                    span{font-size: 0.6vw;}
+                }
+            }
+            .circuit-info-1{
+                width: 45%;
+            }
+            .circuit-info-2{
+                width: 95%;
+            }
+        }
+    }
+}
+
+.round1{
+    background: url(../../img/calendar/1BahrainInternationalCircuit.png)no-repeat center center;
+    .calendar-flag{
+        background: url(../../img/calendar/bahrain.png)no-repeat center center;
+    }
+}
+.round2{
+    background: url(../../img/calendar/2JeddahCornicheCircuit.png)no-repeat center center;
+    .calendar-flag{
+        background: url(../../img/calendar/SA.gif);
+    }
+}
+.round3{
+    background: url(../../img/calendar/3AlbertParkGrandPrixCircuit.png)no-repeat center center;
+    .calendar-flag{
+        background: url(../../img/calendar/AU.gif);
+    }
+}
+.round4{
+    background: url(../../img/calendar/4SuzukaCircuit.png)no-repeat center center;
+    .calendar-flag{
+        background: url(../../img/calendar/JP.gif);
+    }
+}
+.round5{
+    background: url(../../img/calendar/5ShanghaiInternationalCircuit.png)no-repeat center center;
+    .calendar-flag{
+        background: url(../../img/calendar/CN.gif);
+    }
+}
+.round6{
+    background: url(../../img/calendar/6MiamiInternationalAutodrome.png)no-repeat center center;
+    .calendar-flag{
+        background: url(../../img/calendar/US.gif);
+    }
+}
+.round7{
+    background: url(../../img/calendar/7AutodromoInternazionaleEnzoeDinoFerrari.png)no-repeat center center;
+    .calendar-flag{
+        background: url(../../img/calendar/IT.gif);
+    }
+}
+.round8{
+    background: url(../../img/calendar/8CircuitdeMonaco.png)no-repeat center center;
+    .calendar-flag{
+        background: url(../../img/calendar/MC.gif);
+    }
+}
+.round9{
+    background: url(../../img/calendar/9CircuitGilles-Villeneuve.png)no-repeat center center;
+    .calendar-flag{
+        background: url(../../img/calendar/CA.gif);
+    }
+}
+.round10{
+    background: url(../../img/calendar/10CircuitdeBarcelona-Catalunya.png)no-repeat center center;
+    .calendar-flag{
+        background: url(../../img/calendar/ES.gif);
+    }
+}
+.round11{
+    background: url(../../img/calendar/11.RedBullRing.jpg)no-repeat center center;
+    .calendar-flag{
+        background: url(../../img/calendar/HU.gif);
+    }
+}
+.round12{
+    background: url(../../img/calendar/12.SilverstoneCircuit.jpg)no-repeat center center;
+    .calendar-flag{
+        background: url(../../img/calendar/GB.gif);
+    }
+}
+.round13{
+    background: url(../../img/calendar/13Hungaroring.png)no-repeat center center;
+    .calendar-flag{
+        background: url(../../img/calendar/HU.gif);
+    }
+}
+.round14{
+    background: url(../../img/calendar/14CircuitdeSpa-Francorchamps.png)no-repeat center center;
+    .calendar-flag{
+        background: url(../../img/calendar/BE.gif);
+    }
+}
+.round15{
+    background: url(../../img/calendar//15CircuitZandvoort.png)no-repeat center center;
+    .calendar-flag{
+        background: url(../../img/calendar/NL.gif);
+    }
+}
+.round16{
+    background: url(../../img/calendar//16AutodromoNazionaleMonza.png)no-repeat center center;
+    .calendar-flag{
+        background: url(../../img/calendar/IT.gif);
+    }
+}
+.round17{
+    background: url(../../img/calendar//17BakuCityCircuit.png)no-repeat center center;
+    .calendar-flag{
+        background: url(../../img/calendar/AZ.gif);
+    }
+}
+.round18{
+    background: url(../../img/calendar//18MarinaBayStreetCircuit.png)no-repeat center center;
+    .calendar-flag{
+        background: url(../../img/calendar/SG.gif);
+    }
+}
+.round19{
+    background: url(../../img/calendar/19CircuitofTheAmericas.png)no-repeat center center;
+    .calendar-flag{
+        background: url(../../img/calendar/US.gif);
+    }
+}
+.round20{
+    background: url(../../img/calendar/20AutódromoHermanosRodríguez.png)no-repeat center center;
+    .calendar-flag{
+        background: url(../../img/calendar/MX.gif);
+    }
+}
+.round21{
+    background: url(../../img/calendar/21AutódromoJoséCarlosPace.png)no-repeat center center;
+    .calendar-flag{
+        background: url(../../img/calendar/BR.gif);
+    }
+}
+.round22{
+    background: url(../../img/calendar/22LasVegasStripCircuit.png)no-repeat center center;
+    .calendar-flag{
+        background: url(../../img/calendar/US.gif);
+    }
+}
+.round23{
+    background: url(../../img/calendar/23LusailInternationalCircuit.png)no-repeat center center;
+    .calendar-flag{
+        background: url(../../img/calendar/QA.gif);
+    }
+}
+.round24{
+    background: url(../../img/calendar/24YasMarinaCircuit.png)no-repeat center center;
+    .calendar-flag{
+        background: url(../../img/calendar/AE.gif);
+    }
+}
+.round.round7{    
+    .calendar-day{
+        padding-top: 5%;
+    }
+}
+.round.round20{
+    .calendar-day{
+        padding-top: 9%;
+    }
+}
+
+.info1 .circuit{
+    background: url(../../img/calendar/circuit/1.Bahrain_Circuit.png)no-repeat center center;
+}
+.info2 .circuit{
+    background: url(../../img/calendar/circuit/2.Saudi_Arabia_Circuit.png)no-repeat center center;
+}
+.info3 .circuit{
+    background: url(../../img/calendar/circuit/3.Australia_Circuit.png)no-repeat center center;
+}
+.info4 .circuit{
+    background: url(../../img/calendar/circuit/4.Japan_Circuit.png)no-repeat center center;
+}
+.info5 .circuit{
+    background: url(../../img/calendar/circuit/5.China_Circuit.png)no-repeat center center;
+}
+.info6 .circuit{
+    background: url(../../img/calendar/circuit/6.Miami_Circuit.png)no-repeat center center;
+}
+.info7 .circuit{
+    background: url(../../img/calendar/circuit/7.Emilia_Romagna_Circuit.png)no-repeat center center;
+}
+.info8 .circuit{
+    background: url(../../img/calendar/circuit/8.Monoco_Circuit.png)no-repeat center center;
+}
+.info9 .circuit{
+    background: url(../../img/calendar/circuit/9.Canada_Circuit.png)no-repeat center center;
+}
+.info10 .circuit{
+    background: url(../../img/calendar/circuit/10.Spain_Circuit.png)no-repeat center center;
+}
+.info11 .circuit{
+    background: url(../../img/calendar/circuit/11.Austria_Circuit.png)no-repeat center center;
+}
+.info12 .circuit{
+    background: url(../../img/calendar/circuit/12.Great_Britain_Circuit.png)no-repeat center center;
+}
+.info13 .circuit{
+    background: url(../../img/calendar/circuit/13.Hungary_Circuit.png)no-repeat center center;
+}
+.info14 .circuit{
+    background: url(../../img/calendar/circuit/14.Belgium_Circuit.png)no-repeat center center;
+}
+.info15 .circuit{
+    background: url(../../img/calendar/circuit/15.Netherlands_Circuit.png)no-repeat center center;
+}
+.info16 .circuit{
+    background: url(../../img/calendar/circuit/16.Italy_Circuit.png)no-repeat center center;
+}
+.info17 .circuit{
+    background: url(../../img/calendar/circuit/17.Baku_Circuit.png)no-repeat center center;
+}
+.info18 .circuit{
+    background: url(../../img/calendar/circuit/18.Singapore_Circuit.png)no-repeat center center;
+}
+.info19 .circuit{
+    background: url(../../img/calendar/circuit/19.USA_Circuit.png)no-repeat center center;
+}
+.info20 .circuit{
+    background: url(../../img/calendar/circuit/20.Mexico_Circuit.png)no-repeat center center;
+}
+.info21 .circuit{
+    background: url(../../img/calendar/circuit/21.Brazil_Circuit.png)no-repeat center center;
+}
+.info22 .circuit{
+    background: url(../../img/calendar/circuit/22.Las_Vegas_Circuit.png)no-repeat center center;
+}
+.info23 .circuit{
+    background: url(../../img/calendar/circuit/23.Qatar_Circuit.png)no-repeat center center;
+}
+.info24 .circuit{
+    background: url(../../img/calendar/circuit/24.Abu_Dhabi_Circuit.png)no-repeat center center;
+}
+
