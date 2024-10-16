@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/build/static/css/main.12dd2bce.css",
-    "main.js": "/build/static/js/main.8c861b87.js",
+    "main.css": "/build/static/css/main.d3daef80.css",
+    "main.js": "/build/static/js/main.b84741bd.js",
     "static/js/453.befddeed.chunk.js": "/build/static/js/453.befddeed.chunk.js",
     "static/media/5ShanghaiInternationalCircuit.png": "/build/static/media/5ShanghaiInternationalCircuit.03dad2106c504c23751e.png",
     "static/media/17BakuCityCircuit.png": "/build/static/media/17BakuCityCircuit.22453919d4355c6edc55.png",
@@ -38,11 +38,11 @@
     "static/media/racecar.png": "/build/static/media/racecar.8453dfd33c179036da30.png",
     "static/media/Hamilton.png": "/build/static/media/Hamilton.1b9bca30d49cb13d3301.png",
     "static/media/Race.png": "/build/static/media/Race.a2744504f22c669877b9.png",
+    "static/media/intro2_waifu2x_photo_noise1_scale.png": "/build/static/media/intro2_waifu2x_photo_noise1_scale.d1e729819e3c0c9a9e5a.png",
     "static/media/2JeddahCornicheCircuit.png": "/build/static/media/2JeddahCornicheCircuit.2f7f80f64738b7cdb0fc.png",
     "static/media/practice.png": "/build/static/media/practice.c45579989363bd22942a.png",
     "static/media/trophy.png": "/build/static/media/trophy.c7481e43e545d9700ec5.png",
     "static/media/Qualifyung.png": "/build/static/media/Qualifyung.3340acab38b52bb78548.png",
-    "static/media/maintrophy.png": "/build/static/media/maintrophy.b25ab46faca377e93f6c.png",
     "static/media/qualifying1.png": "/build/static/media/qualifying1.2c1a841c5f11dec62c5f.png",
     "static/media/race2.png": "/build/static/media/race2.1a00f93f21418922525e.png",
     "static/media/Ferrari SF-24.png": "/build/static/media/Ferrari SF-24.48b91b04cd617dd0a4ed.png",
@@ -128,12 +128,12 @@
     "static/media/MX.gif": "/build/static/media/MX.9a8b12f4f7e9bf10c8d4.gif",
     "static/media/F1-Logo.svg": "/build/static/media/F1-Logo.7b727427fc63d53fee823252ed6a27e5.svg",
     "index.html": "/build/index.html",
-    "main.12dd2bce.css.map": "/build/static/css/main.12dd2bce.css.map",
-    "main.8c861b87.js.map": "/build/static/js/main.8c861b87.js.map",
+    "main.d3daef80.css.map": "/build/static/css/main.d3daef80.css.map",
+    "main.b84741bd.js.map": "/build/static/js/main.b84741bd.js.map",
     "453.befddeed.chunk.js.map": "/build/static/js/453.befddeed.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.12dd2bce.css",
-    "static/js/main.8c861b87.js"
+    "static/css/main.d3daef80.css",
+    "static/js/main.b84741bd.js"
   ]
 }
